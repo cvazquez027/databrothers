@@ -2,16 +2,36 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-family: "Lucida Console", Courier, monospace;
-}
-
 footer {
-    height: 50px;
+    height: 400px;
     text-align: center;
     vertical-align: middle;
 }
 
-ul {
-  list-style-type: none;
+section {
+    height: 400px;
+    background-color: #0f2137;
+    color:aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px;
+}
+
+.servicios {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 521px;
+    padding-top: 121px;
+}
+
+.conocenos {
+    background-image: url(http://2.bp.blogspot.com/-xmjmQzG1SE8/VC2L9UZNYbI/AAAAAAAAikU/QGO0KFnjANk/s1600/Abstract%2BTriangles%2BWallpapers%2B2.jpg);
+    background-size: cover;
+}
+
+.partners {
+    background-color: goldenrod;
+}
+
+.hablemos {
+    background-color:lavenderblush;
 }
