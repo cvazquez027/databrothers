@@ -2,36 +2,144 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
 footer {
     height: 400px;
     text-align: center;
-    vertical-align: middle;
+    align-content: end;
 }
 
 section {
     height: 400px;
-    background-color: #0f2137;
-    color:aliceblue;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 5px;
+    background-color: #0a192e;
+    color: aliceblue;
+    font-family: 'Nunito', sans-serif;
 }
 
 .servicios {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    align-items: center;
+    background-color: white;
+    color: black;
     height: 521px;
     padding-top: 121px;
 }
 
+.div-servicios1 {
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    height: 100%;
+}
+
+.div-servicios2 {
+    text-align: center;
+    grid-row: 1 / span 2;
+    grid-column-start: 2;
+}
+
+.div-servicios3 {
+    height: 100%;
+    text-align: right;
+}
+
 .conocenos {
-    background-image: url(http://2.bp.blogspot.com/-xmjmQzG1SE8/VC2L9UZNYbI/AAAAAAAAikU/QGO0KFnjANk/s1600/Abstract%2BTriangles%2BWallpapers%2B2.jpg);
-    background-size: cover;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    align-items: center;
+}
+
+.div-conocenos1 {
+    text-align: center;
+    grid-row: 1 / span 2;
+    grid-column-start: 1;
+}
+
+.div-conocenos2 {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.div-conocenos3 {
+    height: 100%;
 }
 
 .partners {
-    background-color: goldenrod;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    align-items: center;
+    background-color: rgb(233, 174, 11);
+}
+
+.div-partners1 {
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    height: 100%;
+}
+
+.div-partners2 {
+    text-align: center;
+    grid-row: 1 / span 2;
+    grid-column-start: 2;
+}
+
+.div-partners3 {
+    height: 100%;
+    text-align: right;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+
+.div-blog1 {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.div-blog2 {
+    text-align: center;
+    grid-row: 1 / span 2;
+    grid-column-start: 1;
+}
+
+.div-blog3 {
+    height: 100%;
 }
 
 .hablemos {
-    background-color:lavenderblush;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    color: black;
+}
+
+.form-label {
+    color: black;
+}
+
+.div-formContacto {
+    width: 40%;
+    margin-top: 30px;
 }
