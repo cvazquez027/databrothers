@@ -1,0 +1,17 @@
+.servicios .div-servicios1 {
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  height: 100%;
+}
+.servicios .div-servicios2 {
+  text-align: center;
+  grid-row: 1/span 2;
+  grid-column-start: 2;
+}
+.servicios .div-servicios3 {
+  height: 100%;
+  text-align: right;
+}
+
+/*# sourceMappingURL=styles.css.map */
