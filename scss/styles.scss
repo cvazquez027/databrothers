@@ -1,4 +1,14 @@
 .servicios {
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    align-items: center;
+    background-color: white;
+    color: black;
+    height: 521px;
+    padding-top: 121px;
+
     .div-servicios1 {
         display: flex;
         align-items: flex-end;
